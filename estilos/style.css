@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/*
+    Paleta de cores:
+
+    #D9D0BF = meio branco
+    #261501 = meio marrom
+    #8C7C68 = meio cinza
+*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family:'Inter', sans-serif;
+}
