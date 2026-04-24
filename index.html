@@ -19,7 +19,14 @@
 
                 <p>Seja bem-vindo(a) novamente. Faça o login para acessar sua conta e poder configurar seu ambiente.</p>
                 <form action="login.php" method="post">
-                    
+                    <label for="nome"> Nome de usuário:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Escreva seu nome de usuário">
+
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+
+                    <input class="botao" type="submit" value="enviar">
+                    <input class="botao" type="reset" value="limpar">
                 </form>
             </div>
         </section>

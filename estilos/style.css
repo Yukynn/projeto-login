@@ -12,4 +12,46 @@
     padding: 0px;
     margin: 0px;
     font-family:'Inter', sans-serif;
+    box-sizing:border-box;
+}
+
+body, html {
+    background-color: #8C7C68;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: #D9D0BF;
+    width: 250px;
+    height: 500px;
+    border-radius:20px;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.347);
+}
+
+section#login > div#imagem {
+    display: block;
+    background: #8C7C68 url(../imagens/pexels-lizhi-liang-734722063-20808351\ \(1\).jpg);
+    height: 200px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding:10px;
 }
